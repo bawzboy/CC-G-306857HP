@@ -11,7 +11,7 @@ public class TestType {
 		String text = "Das ist mein Text";
 		System.out.println(text);
 		
-		float size = 2.5f;
+		float size = 2.5f; 
 		System.out.println(size);
 		
 		
