@@ -8,9 +8,9 @@ public class IO {
 
 	private static BufferedReader keyb = new BufferedReader( new InputStreamReader(System.in) );
 
-	// public static int getRandomInt(final int bound) {
-    //     return Utility.RANDOM.nextInt(bound);
-    // }
+	public static int getRandomInt(final int bound) {
+        return RANDOM.nextInt(bound);
+    }
 	
 	public static float round(float x, int digits) {
 		int help = (int) Math.pow(10, digits);
