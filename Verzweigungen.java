@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Verzweigungen {
     public static void main(String[] args) {
         
@@ -131,7 +133,7 @@ public class Verzweigungen {
         //     case 3:
         //         System.out.println("Es ist Mittwoch");
         //         break;
-        //        case 4:
+        //     case 4:
         //         System.out.println("Es ist Donnerstag");
         //         break;
         //     case 5:
@@ -181,7 +183,43 @@ public class Verzweigungen {
         // }
 
         // 3.8
+        // Versuch 1
+        // while (true) {
+        //     System.out.println("Willkommen beim Glücksspiel!");
+        //     System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
+        //     // System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
+        //     int tip = (int) (IO.promptAndReadInt("Wie lautet Ihr Tipp? "));
+        //     int randNo = IO.getRandomInt(100) + 1;
+        //     System.out.println("Die generierte Zahl lautet: " + randNo);
+        //     if (tip == randNo) {
+        //         System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
+        //         break;
+        //     }
+        //     else {
+        //         System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
+        //     }
+            
+        // }
+
+        // Versuch 2
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Willkommen beim Glücksspiel!");
+        // System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
+        // System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
+        // int randNo = IO.getRandomInt(100) + 1;
+        // System.out.print("Wie lautet Ihr Tip? ");
+        // String tip = scanner.next();
+        // System.out.println("Die generierte Zahl lautet: " + randNo);
         
+        // if (tip == randNo) {
+        //     System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
+        // }
+        // else {
+        //     System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
+        // }
+
+        // scanner.close();
+
 
     }
 }
