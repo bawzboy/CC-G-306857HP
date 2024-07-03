@@ -55,6 +55,8 @@ public class Char {
 
         // Aufgabe 2.5 / 3
 
+        // String Text = "Hello World";
+
         // System.out.println("Zeichen \t" + "ASCII-Wert");
         // System.out.println("H \t\t" + (int) Text.charAt(0));
         // System.out.println("e \t\t" + (int) Text.charAt(1));
@@ -69,6 +71,8 @@ public class Char {
         // System.out.println("d \t\t" + (int) Text.charAt(10));
 
         // Bonus for - Schleife
+      
+        // char [] Text = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
         
         // for (int i = 0; i < Text.length; i++){
         //     System.out.println(Text[i] + "\t" + (int) Text[i]);
