@@ -1,4 +1,4 @@
-package grundlagen;
+package thema1.grundlagen;
 
 public class HelloWorld {
 

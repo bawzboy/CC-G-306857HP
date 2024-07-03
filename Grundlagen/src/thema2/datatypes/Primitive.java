@@ -1,4 +1,4 @@
-package exercise2;
+package thema2.datatypes;
 
 public class Primitive {
 

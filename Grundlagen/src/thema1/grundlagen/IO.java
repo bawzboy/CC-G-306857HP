@@ -1,4 +1,4 @@
-package grundlagen;
+package thema1.grundlagen;
 
 /* Prof. Dr.-Ing. Philippe Tamla */
 import java.io.*;

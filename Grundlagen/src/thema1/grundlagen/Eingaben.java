@@ -1,4 +1,4 @@
-package grundlagen;
+package thema1.grundlagen;
 
 import java.util.Scanner;
 

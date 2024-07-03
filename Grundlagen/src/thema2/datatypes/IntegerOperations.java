@@ -1,4 +1,4 @@
-package exercise2;
+package thema2.datatypes;
 
 import java.util.Scanner;
 
