@@ -1,5 +1,7 @@
 package thema1.grundlagen;
 
+import utils.IO;
+
 public class BMI_Loesung2 {
 
 	public static void main(String[] args) {
