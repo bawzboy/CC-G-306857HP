@@ -183,9 +183,9 @@ public class Verzweigungen {
         // }
 
         // 3.7
-        // float guthaben = 346.14f;
+        // double guthaben = 346.14;
         // System.out.println("Ihr Guthaben beträgt: " + guthaben + " Euro");
-        // float auszahlung = (float) (IO.promptAndReadFloat("Wie viel möchten Sie abheben? "));
+        // double auszahlung = (double) (IO.promptAndReadDouble("Wie viel möchten Sie abheben? "));
         // if (auszahlung > guthaben) {
         //     System.out.println("Keine Auszahlung möglich, Guthaben nicht ausreichend!");
         // }
@@ -194,7 +194,7 @@ public class Verzweigungen {
         // }
         // else {
         //     System.out.println("Es werden: " + auszahlung + " Euro ausgezahlt.");
-        //     System.out.println("Iht neuer Kontostand beträgt: " + IO.round(guthaben - auszahlung, 2) + " Euro");
+        //     System.out.println("Ihr neuer Kontostand beträgt: " + (guthaben - auszahlung) + " Euro");
         // }
 
         // 3.8
@@ -217,37 +217,49 @@ public class Verzweigungen {
         // }
 
         // Versuch 2
-        // while (true) {
+        while (true) {
 
-        //     Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
-        //     System.out.println("Willkommen beim Glücksspiel!");
-        //     System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
-        //     System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
-        //     int randNo = IO.getRandomInt(100) + 1;
-        //     System.out.print("Wie lautet Ihr Tip? ");
-        //     String tip = scanner.next();
-        //     try {
-        //         int userInput = Integer.valueOf(tip);
-        //         System.out.println("Die generierte Zahl lautet: " + randNo);
-        //         if (userInput == randNo) {
-        //             System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
-        //             break;
-        //         }
-        //         else {
-        //             System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
-        //         }
-        //     }
-        //     catch (NumberFormatException e) {
-        //         if (tip.charAt(0) == 's') {
-        //             System.out.println("Das Spiel wird beendet");
-        //             break;
-        //         } 
-        //     }
+            System.out.println("Willkommen beim Glücksspiel!");
+            System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
+            System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
+            int randNo = IO.getRandomInt(100) + 1;
+            System.out.print("Wie lautet Ihr Tip? ");
+            String tip = scanner.next();
 
-        //     scanner.close();
+            if(tip.equals("s")) {
+                System.out.println("Das Spiel wird beendet");
+                break;
+            }
+            else if (Integer.parseInt(tip) == randNo) {
+                System.out.println("Die generierte Zahl lautet: " + randNo);
+                System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
+                break;
+            }
+            else {
+                System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
+            }
+            // try {
+            //     int userInput = Integer.valueOf(tip);
+            //     System.out.println("Die generierte Zahl lautet: " + randNo);
+            //     if (userInput == randNo) {
+            //         System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
+            //         break;
+            //     }
+            //     else {
+            //         System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
+            //     }
+            // }
+            // catch (NumberFormatException e) {
+            //     if (tip.charAt(0) == 's') {
+            //         System.out.println("Das Spiel wird beendet");
+            //         break;
+            //     } 
+            // }
+            scanner.close();
         
-        // }
+        }
 
 
     }
