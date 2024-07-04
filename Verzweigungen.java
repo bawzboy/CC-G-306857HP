@@ -99,6 +99,21 @@ public class Verzweigungen {
         // }
 
         // 3.3.2
+        // int number1 = (int) (IO.promptAndReadInt("Wie lautet die erste Zahl? "));
+        // int number2 = (int) (IO.promptAndReadInt("Wie lautet die zweite Zahl? "));
+        // int number3 = (int) (IO.promptAndReadInt("Wie lautet die dritte Zahl? "));
+        // int biggestNumber = Math.max(number1, Math.max(number2, number3)) ;
+        // switch (biggestNumber){
+        //     case 1: if (biggestNumber == number1){
+        //         System.out.println("Die erste Zahl ist die größte");
+        //         break;
+        //     }
+
+        // }
+
+
+
+
 
         // 3.4
         // float note = (float) (IO.promptAndReadFloat("Wie lautet die Note? "));
@@ -202,23 +217,37 @@ public class Verzweigungen {
         // }
 
         // Versuch 2
-        // Scanner scanner = new Scanner(System.in);
-        // System.out.println("Willkommen beim Glücksspiel!");
-        // System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
-        // System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
-        // int randNo = IO.getRandomInt(100) + 1;
-        // System.out.print("Wie lautet Ihr Tip? ");
-        // String tip = scanner.next();
-        // System.out.println("Die generierte Zahl lautet: " + randNo);
-        
-        // if (tip == randNo) {
-        //     System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
-        // }
-        // else {
-        //     System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
-        // }
+        // while (true) {
 
-        // scanner.close();
+        //     Scanner scanner = new Scanner(System.in);
+
+        //     System.out.println("Willkommen beim Glücksspiel!");
+        //     System.out.println("Geben Sie Ihren Tipp (Eine ganze Zahl zwischen 1 und 100) ab!");
+        //     System.out.println("Alternativ drücken sie 's' um das Spiel zu beenden." );
+        //     int randNo = IO.getRandomInt(100) + 1;
+        //     System.out.print("Wie lautet Ihr Tip? ");
+        //     String tip = scanner.next();
+        //     try {
+        //         int userInput = Integer.valueOf(tip);
+        //         System.out.println("Die generierte Zahl lautet: " + randNo);
+        //         if (userInput == randNo) {
+        //             System.out.println("Herzlichen Glückwunsch, Sie haben gewonnen!");
+        //             break;
+        //         }
+        //         else {
+        //             System.out.println("Das ist leider falsch, versuchen Sie es erneut!");
+        //         }
+        //     }
+        //     catch (NumberFormatException e) {
+        //         if (tip.charAt(0) == 's') {
+        //             System.out.println("Das Spiel wird beendet");
+        //             break;
+        //         } 
+        //     }
+
+        //     scanner.close();
+        
+        // }
 
 
     }
