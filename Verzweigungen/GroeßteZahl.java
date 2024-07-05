@@ -2,6 +2,7 @@ package Verzweigungen;
 
 import utils.IO;
 
+@SuppressWarnings("unused")
 public class GroeßteZahl {
     public static void main(String[] args) {
         // 3.3.1

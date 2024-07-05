@@ -7,6 +7,7 @@ public class Primitive2 {
         int n = 500;
         long q = 100;
         float x = 2.5f;
+        @SuppressWarnings("unused")
         double y = 5.25;
 
         // Aufgabe 1.

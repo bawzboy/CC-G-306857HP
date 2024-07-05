@@ -2,6 +2,7 @@ package Verzweigungen;
 
 import utils.IO;
 
+@SuppressWarnings("unused")
 public class Switch {
     public static void main(String[] args) {
         // 3.1.2 1) (if)
