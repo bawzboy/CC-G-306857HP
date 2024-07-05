@@ -13,7 +13,7 @@ public class Differentialgleichung {
             t = t + dt;
             dx = k * xn * (1 - xn) * dt;
             xn = xn + dx;
-            System.out.println(Math.round(t) + "\t" + xn);
+            IO.writeln(Math.round(t) + "\t" + xn);
         }
     }
 }

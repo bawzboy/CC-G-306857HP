@@ -17,10 +17,10 @@ public class Wurzel {
             else {
                 rechts = m;
             }
-            System.out.println(i);
-            System.out.println(links);
-            System.out.println(rechts);
             i ++;
         }
+        System.out.println("Anzahl Durchgänge: " + i);
+        System.out.println(links);
+        System.out.println(rechts);
     }
 }
