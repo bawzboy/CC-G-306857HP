@@ -1,3 +1,4 @@
+package Grundlagen;
 import java.util.Scanner;
 
 public class Eingaben {

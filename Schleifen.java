@@ -83,7 +83,14 @@ public class Schleifen {
         // }
 
         // 4.6
-        // no way
+        // double n = 1;
+        // while (n < 100) {
+        //     double ergebnis = 1 / n;
+        //     n++;
+        //     IO.writeln(ergebnis);
+
+        // }
+
 
         // 4.7
         // int n = IO.promptAndReadInt("Wie viele Durchgänge sollen ausgeführt werden? ");
