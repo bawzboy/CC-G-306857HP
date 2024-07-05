@@ -46,7 +46,9 @@ public class Schleifen {
         // int i = 1;
         
         // while (i <= laufzeit) {
-        //     System.out.println("Das Kapital beträgt: " + IO.round(kapital = kapital + kapital * zinssatz, 2) + " Euro im " + i + "ten Jahr");
+        //     System.out.println("Das Kapital beträgt: " + 
+        //     IO.round(kapital = kapital + kapital * zinssatz, 2) + 
+        //     " Euro im " + i + "ten Jahr");
         //     i++; 
         // }
 
@@ -54,12 +56,18 @@ public class Schleifen {
         // double kapital = IO.promptAndReadDouble("Kapital in Euro: ");
         // double zinssatz = IO.promptAndReadDouble("Zinssatz in %: ") / 100;
         // double rente = IO.promptAndReadDouble("Monatliche Rente in Euro: ") * 12;
-        // int laufzeit = 0;
-        // while ((kapital + (kapital * zinssatz)) > 0) {
-        //     kapital = (kapital + (kapital * zinssatz)) - rente;
-        //     laufzeit++;
+        // int jahr = 0;
+        // if (rente > (kapital * zinssatz)) {
+            
+        //     while (kapital > 0 && kapital > rente) {
+        //         kapital = kapital * (1 + zinssatz) - rente;
+        //         jahr++;
+        //     }
+        //     System.out.println("Sie können " + jahr + " Jahre Rente beziehen");
         // }
-        // System.out.println("Sie können " + laufzeit + " Jahre Rente beziehen");
+        // else {
+        //     IO.writeln("Rente zu gering!");
+        // }
 
         // 4.5
         // double t = 0;
