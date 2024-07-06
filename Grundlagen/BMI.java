@@ -1,7 +1,7 @@
 package Grundlagen;
 //import java.util.Scanner;
 
-import IO;
+import utils.IO;
 
 public class BMI {
 

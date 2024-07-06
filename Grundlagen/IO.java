@@ -1,3 +1,5 @@
+package Grundlagen;
+
 /* Prof. Dr.-Ing. Philippe Tamla */
 import java.io.*;
 import java.util.Random;

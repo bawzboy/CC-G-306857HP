@@ -2,6 +2,7 @@ package Schleifen;
 
 import utils.IO;
 
+@SuppressWarnings("unused")
 public class EinfacheProgrammierung {
     public static void main(String[] args) {
         // 4.1
