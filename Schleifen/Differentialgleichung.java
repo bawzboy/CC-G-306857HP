@@ -4,7 +4,7 @@ import utils.IO;
 
 public class Differentialgleichung {
     public static void main(String[] args) {
-        double t = 0;
+        double t = 0.0;
         double dt = 1.0;
         double k = 0.1;
         double xn = 0.01;
