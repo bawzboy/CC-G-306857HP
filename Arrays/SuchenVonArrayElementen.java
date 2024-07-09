@@ -30,7 +30,7 @@ public class SuchenVonArrayElementen {
         }
         if (bigNumbers.length() > 2){   // print only if there is more than 1 biggest number
             bigNumbers.delete(0, 1);    // delete first entry because its already printed with biggest number
-            System.out.println("The element/s at index/indices " + bigNumbers + " are as big as the biggest number.");
+            System.out.println("The element/s at index/indices " + bigNumbers + " is/are as big as the biggest number.");
         }        
     }
 }
