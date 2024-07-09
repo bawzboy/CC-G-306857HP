@@ -11,15 +11,17 @@ public class EinfacheProgrammierungMitArrays {
 			zahlen[i] = (int)(Math.random() * 10);
 		}
         
-        int ergebnis = 0;
+        int summe = 0;
         for (int value = 0; value < zahlen.length; value ++) {
             System.out.println(zahlen[value]);
-            ergebnis = ergebnis + zahlen[value]; 
+            summe = summe + zahlen[value]; 
         }
 
         System.out.println(Arrays.toString(zahlen));
-        System.out.println(ergebnis);
+        System.out.println(summe);
         
+
+
         // 2.
         // Integer [] arrayOne = new Integer [20];
         // Integer [] arrayTwo = new Integer [20];
