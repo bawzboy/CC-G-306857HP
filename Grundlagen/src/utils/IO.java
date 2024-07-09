@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.Random;
 
 public class IO {
-
+	
 	private static final Random RANDOM = new Random();
 
 	private static BufferedReader keyb = new BufferedReader( new InputStreamReader(System.in) );
