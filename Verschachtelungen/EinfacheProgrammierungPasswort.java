@@ -3,10 +3,10 @@ package Verschachtelungen;
 public class EinfacheProgrammierungPasswort {
     public static void main(String[] args) {
         
-        String [] passwoerter = {"Pass1234", "123456", "passwort", "abc"};
+        String [] passwords = {"Pass1234", "123456", "passwort", "abc"};
 
-        for (int i = 0; i < passwoerter.length; i++) {
-            if (isStrong(passwoerter[i])) {
+        for (int i = 0; i < passwords.length; i++) {
+            if (isStrong(passwords[i])) {
                 System.out.println("Password " + (i + 1) + " is strong!");
             }
         }
@@ -14,13 +14,13 @@ public class EinfacheProgrammierungPasswort {
 
     public static boolean isStrong(String password) {
         boolean strong = false;
-        if (passwordLength(password) && containsDigit(password)) {
+        if (checkPasswordLength(password) && containsDigit(password)) {
         strong = true;
         }
         return strong;
     }
 
-    public static boolean passwordLength(String pw) {
+    public static boolean checkPasswordLength(String pw) {
         boolean length = false;
         if (pw.length() >= 8) {
             length = true;
@@ -33,6 +33,7 @@ public class EinfacheProgrammierungPasswort {
         for (int i = 0; i < pw.length(); i++) {
             if (Character.isDigit(pw.charAt(i))) {
                 digit = true;
+                break;
             }
         }
         return digit;
