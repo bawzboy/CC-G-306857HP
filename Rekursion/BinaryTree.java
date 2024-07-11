@@ -23,6 +23,6 @@ public class BinaryTree {
         }
         int leftHeight = getTreeHeight(tk.left);
         int rightHeight = getTreeHeight(tk.right);
-        return Math.max(leftHeight, rightHeight) + 1;
+        return Math.max(leftHeight, rightHeight) + 1; // returns the "heighest" knot (with most consecutive knots)
     }
 }
