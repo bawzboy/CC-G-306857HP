@@ -1,4 +1,4 @@
-package thema4.schleifen.examples;
+package Grundlagen.src.thema4.schleifen.examples;
 
 public class DoWhileExample1 {
 

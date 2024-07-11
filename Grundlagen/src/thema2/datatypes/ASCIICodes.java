@@ -1,4 +1,4 @@
-package thema2.datatypes;
+package Grundlagen.src.thema2.datatypes;
 
 /**
  * Aufgabe 2.5.1 Char und Zeichenkettenverarbeitung

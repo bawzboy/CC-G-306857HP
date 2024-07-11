@@ -1,4 +1,4 @@
-package utils;
+package Grundlagen.src.utils;
 
 /* Prof. Dr.-Ing. Philippe Tamla */
 import java.io.*;
@@ -115,18 +115,22 @@ public class IO {
 		}
 	}
 
+	@SuppressWarnings("removal")
 	public static byte promptAndReadByte(String s) {
 		return new Byte(promptAndReadString(s)).byteValue();
 	}
 
+	@SuppressWarnings("removal")
 	public static short promptAndReadShort(String s) {
 		return new Short(promptAndReadString(s)).shortValue();
 	}
 
+	@SuppressWarnings("removal")
 	public static int promptAndReadInt(String s) {
 		return new Integer(promptAndReadString(s)).intValue();
 	}
 
+	@SuppressWarnings("removal")
 	public static long promptAndReadLong(String s) {
 		return new Long(promptAndReadString(s)).longValue();
 	}
@@ -135,14 +139,17 @@ public class IO {
 		return promptAndReadString(s).charAt(0);
 	}
 
+	@SuppressWarnings("removal")
 	public static double promptAndReadDouble(String s) {
 		return (new Double(promptAndReadString(s)).doubleValue());
 	}
 
+	@SuppressWarnings("removal")
 	public static float promptAndReadFloat(String s) {
 		return (new Float(promptAndReadString(s)).floatValue());
 	}
 
+	@SuppressWarnings("removal")
 	public static boolean promptAndReadBoolean(String s) {
 		return (new Boolean(promptAndReadString(s)).booleanValue());
 	}

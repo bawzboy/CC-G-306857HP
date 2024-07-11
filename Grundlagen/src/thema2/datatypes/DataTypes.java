@@ -1,4 +1,4 @@
-package thema2.datatypes;
+package Grundlagen.src.thema2.datatypes;
 
 public class DataTypes {
 
@@ -9,6 +9,7 @@ public class DataTypes {
 		int n = 500;
 		long q = 100;
 		float x = 2.5f;
+		@SuppressWarnings("unused")
 		double y = 5.25;
 	
 		// In Java werden Operationen mit kleineren Datentypen wie byte, short oder char standardmäßig in int umgewandelt.

@@ -1,4 +1,4 @@
-package thema1.grundlagen;
+package Grundlagen.src.thema1.grundlagen;
 
 import utils.IO;
 

@@ -1,4 +1,4 @@
-package thema4.schleifen.uebungen;
+package Grundlagen.src.thema4.schleifen.uebungen;
 
 public class SimpleProgram {
 
@@ -28,6 +28,7 @@ public class SimpleProgram {
 		*/
 		
 		
+		@SuppressWarnings("unused")
 		int n, a=5; // 1
 		// while( a<10 ) { n = 1; a++ ; } // 2
 		

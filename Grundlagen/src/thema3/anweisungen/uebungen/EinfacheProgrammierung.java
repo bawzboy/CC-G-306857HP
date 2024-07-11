@@ -1,4 +1,4 @@
-package thema3.anweisungen.uebungen;
+package Grundlagen.src.thema3.anweisungen.uebungen;
 
 public class EinfacheProgrammierung {
 
@@ -45,6 +45,7 @@ public class EinfacheProgrammierung {
 		}
 		*/
 		
+		@SuppressWarnings("unused")
 		int name;
 		
 		

@@ -1,4 +1,4 @@
-package thema3.anweisungen;
+package Grundlagen.src.thema3.anweisungen;
 
 import java.util.Scanner;
 

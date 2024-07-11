@@ -1,4 +1,4 @@
-package thema4.schleifen.uebungen;
+package Grundlagen.src.thema4.schleifen.uebungen;
 
 import utils.IO;
 

@@ -1,4 +1,4 @@
-package thema2.datatypes;
+package Grundlagen.src.thema2.datatypes;
 
 public class Primitive {
 

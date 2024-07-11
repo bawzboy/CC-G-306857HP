@@ -1,10 +1,11 @@
-package thema2.datatypes;
+package Grundlagen.src.thema2.datatypes;
 
 import java.util.Scanner;
 
 /**
  * Programm für Üben von Ganzzahlen: Addition, Subtraktion, Division, Modulo Berechnung 
  */
+@SuppressWarnings("unused")
 public class IntegerOperations {
 
 	public static void main(String[] args) {
