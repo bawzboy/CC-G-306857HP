@@ -10,7 +10,7 @@ public class ReversedString {
     }
     public static String reversedString(String message, int messageLength) {
         if (messageLength == 0) {
-            return ".";
+            return "";
         }
         return message.charAt(messageLength - 1) + reversedString(message, messageLength - 1); // print last char, then repeat method
         // return reversedString(message, messageLength - 1) + message.charAt(messageLength - 1); // prints the original, why?
