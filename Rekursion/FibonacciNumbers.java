@@ -7,6 +7,7 @@ public class FibonacciNumbers {
         int n = IO.promptAndReadInt("What position? ");
         System.out.println("Fibonacci number at position " + n + " is: " + fibonacci(n));
     }
+    
     public static int fibonacci(int n) {
         if (n <= 0) {
             return 0; 

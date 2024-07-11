@@ -6,6 +6,7 @@ public class SumOfArrayElements {
         int sum = sumOfArray(numbers, numbers.length);
         System.out.println("Sum of all elements in this array is: " + sum);
     }
+    
     public static int sumOfArray(int [] numbers, int arrayLength) {
         if (arrayLength == 0) { // base - if array is empty there is no sum / no more numbers to add
             return 0;
