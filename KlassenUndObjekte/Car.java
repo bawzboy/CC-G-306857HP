@@ -23,7 +23,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "make= " + make + ", model= " + model + ", year= " + year + ", mileage= " + mileage + ", price= " + price + ", owner= " + owner;
+        return "make= " + make + ", model= " + model + ", color= " + color + ", year= " + year + ", mileage= " + mileage + ", price= " + price + ", owner= " + owner;
     }
 
     public String getMake() {
