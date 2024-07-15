@@ -1,4 +1,4 @@
-package thema7.oop.grundlagen;
+package Grundlagen.src.thema7.oop.grundlagen;
 
 public class HundSpiel {
 
@@ -10,6 +10,7 @@ public class HundSpiel {
 		Hund hund2 = new Hund("Bonny", "Chihuahua");
 //		hund2.fressen();
 		
+		@SuppressWarnings("unused")
 		Hund hund3 = new Hund("Bonny", "Chihuahua", 2024);
 //		hund3.fressen();
 		

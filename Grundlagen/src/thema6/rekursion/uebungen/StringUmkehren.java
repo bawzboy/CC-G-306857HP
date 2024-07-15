@@ -1,4 +1,4 @@
-package thema6.rekursion.uebungen;
+package Grundlagen.src.thema6.rekursion.uebungen;
 
 public class StringUmkehren {
 

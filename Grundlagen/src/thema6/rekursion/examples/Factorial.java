@@ -1,4 +1,4 @@
-package thema6.rekursion.examples;
+package Grundlagen.src.thema6.rekursion.examples;
 
 public class Factorial {
 

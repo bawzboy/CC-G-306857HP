@@ -1,4 +1,4 @@
-package thema7.oop.uml.bib;
+package Grundlagen.src.thema7.oop.uml.bib;
 
 public class Buch {
 

@@ -1,4 +1,4 @@
-package thema7.oop.grundlagen;
+package Grundlagen.src.thema7.oop.grundlagen;
 
 public class TestMathe {
 

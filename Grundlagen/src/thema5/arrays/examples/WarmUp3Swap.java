@@ -1,4 +1,4 @@
-package thema5.arrays.examples;
+package Grundlagen.src.thema5.arrays.examples;
 
 public class WarmUp3Swap {
 
