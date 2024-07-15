@@ -8,7 +8,7 @@ public class Bibliothek {
 	
 	private List<Buch> buecher; 
 	
-	private List<Mietglied> mitglieder;
+	private List<Mitglied> mitglieder;
 	
 	public Bibliothek() {
 	}
@@ -30,25 +30,18 @@ public class Bibliothek {
 		this.buecher = buecher;
 	}
 	
-	public List<Mietglied> getMitglieder() {
+	public List<Mitglied> getMitglieder() {
 		return mitglieder;
 	}
 	
-	public void setMitglieder(List<Mietglied> mitglieder) {
+	public void setMitglieder(List<Mitglied> mitglieder) {
 		this.mitglieder = mitglieder;
 	}
-	
+
 	@Override
 	public String toString() {
-		
-		String textToReturn = "Name = " + this.name;
-		textToReturn += "\nBuecher = ";
-		
-		// for(Buch name : this.buecher) {
-			// textToReturn + " "
-		// }
-		
-		
-		return textToReturn;
+		return "Bibliothek [name=" + name + ", buecher=" + buecher + ", mitglieder=" + mitglieder + "]\n";
 	}
+	
+	
 }

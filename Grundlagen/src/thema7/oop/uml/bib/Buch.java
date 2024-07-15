@@ -6,6 +6,8 @@ public class Buch {
 	
 	private String autor;
 	
+	private String isbn;
+	
 	public Buch(String title, String autor, String isbn) {
 		super();
 		
@@ -38,5 +40,9 @@ public class Buch {
 		this.isbn = isbn;
 	}
 
-	private String isbn;
+	@Override
+	public String toString() {
+		return "Buch [title=" + title + ", autor=" + autor + ", isbn=" + isbn + "]\n";
+	}	
+
 }
