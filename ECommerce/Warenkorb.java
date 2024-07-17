@@ -17,7 +17,11 @@ public class Warenkorb {
         this.Kunde = kunde;
     }
 
-    public double gesamtbetrag() {
+    public double gesamtbetrag(List<WarenkorbItem> warenkorbItems) {
+        double gesamtbetrag = 0;
+        for (int i = 0; i < warenkorbItems.size(); i++) {
+            gesamtbetrag += (warenkorbItems.get(i).anzahl * warenkorbItems.get(i).preis);
+        }
         return gesamtbetrag;
     }
 

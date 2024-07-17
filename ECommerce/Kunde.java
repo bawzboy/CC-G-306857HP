@@ -65,6 +65,5 @@ public class Kunde {
     public String toString() {
         return "Kunde [name=" + name + ", adresse=" + adresse + ", kundenId=" + kundenId + ", emailAdresse="
                 + emailAdresse + ", bestellungen=" + bestellungen + "]";
-    }
-
+    }   
 }

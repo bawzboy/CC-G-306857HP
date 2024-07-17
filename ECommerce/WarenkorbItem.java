@@ -13,7 +13,7 @@ public class WarenkorbItem {
     public WarenkorbItem(Produkt produkt, Warenkorb warenkorb, double preis, int anzahl) {
         this.produkt = produkt;
         this.warenkorb = warenkorb;
-        this.preis = preis;
+        this.preis = preis; // should be linked to produkt.preis?
         this.anzahl = anzahl;
     }
 
