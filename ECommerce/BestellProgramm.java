@@ -34,9 +34,9 @@ public class BestellProgramm {
 
         testWarenkorb.addItem(itemEins);
         testWarenkorb.addItem(itemZwei);
+        testWarenkorb.setGesamtbetrag(testWarenkorb.gesamtbetrag(testWarenkorb.warenkorbItems));
         System.out.println(testWarenkorb);
         
-        // testWarenkorb.setGesamtbetrag(testWarenkorb.gesamtbetrag(testWarenkorb.warenkorbItems));
         
     }
 }
