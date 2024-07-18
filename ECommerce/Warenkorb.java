@@ -1,20 +1,22 @@
 package ECommerce;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Warenkorb {
 
-    List<WarenkorbItem> warenkorbItems;
+    List<WarenkorbItem> warenkorbItems = new ArrayList<WarenkorbItem>();
     double gesamtbetrag;
-    Kunde Kunde;
+    Kunde kunde;
 
     public Warenkorb() {
+        this.warenkorbItems = new ArrayList<WarenkorbItem>();
     }
 
     public Warenkorb(List<WarenkorbItem> warenkorbItems, double gesamtbetrag, Kunde kunde) {
-        this.warenkorbItems = warenkorbItems;
+        this.warenkorbItems = new ArrayList<WarenkorbItem>();
         this.gesamtbetrag = gesamtbetrag;
-        this.Kunde = kunde;
+        this.kunde = kunde;
     }
 
     public double gesamtbetrag(List<WarenkorbItem> warenkorbItems) {
@@ -26,6 +28,7 @@ public class Warenkorb {
     }
 
     public void addItem(WarenkorbItem warenkorbItem) {
+        this.warenkorbItems.add(warenkorbItem);
     }
 
     public List<WarenkorbItem> getWarenkorbitems() {
@@ -45,17 +48,16 @@ public class Warenkorb {
     }
 
     public Kunde getKunde() {
-        return Kunde;
+        return kunde;
     }
 
     public void setKunde(Kunde kunde) {
-        Kunde = kunde;
+        this.kunde = kunde;
     }
 
     @Override
     public String toString() {
-        return "Warenkorb [warenkorbItems=" + warenkorbItems + ", gesamtbetrag=" + gesamtbetrag + ", Kunde=" + Kunde
-                + "]";
+        return "Warenkorb [warenkorbItems=" + warenkorbItems.size() + ", gesamtbetrag=" + gesamtbetrag + ", Kunde=" + kunde.getKundenId() + "]";
     }
 
 }

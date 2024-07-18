@@ -11,7 +11,7 @@ public class BestellProgramm {
         Produkt produktEins = new Produkt(1, "produktEins", 1.99);
         Produkt produktZwei = new Produkt(2, "produktZwei", 2.99);
 
-        List<Produkt> produktListe = new ArrayList<Produkt>(); // why not use arraylist only???
+        List<Produkt> produktListe = new ArrayList<Produkt>();
         produktListe.add(produktEins);
         produktListe.add(produktZwei);
         haendler.setProdukte(produktListe);
@@ -27,12 +27,16 @@ public class BestellProgramm {
         
         WarenkorbItem itemEins = new WarenkorbItem(produktEins, testWarenkorb, produktEins.preis, 5);
         WarenkorbItem itemZwei = new WarenkorbItem(produktZwei, testWarenkorb, produktZwei.preis, 3);
-        List<WarenkorbItem> testWarenkorbItemListe = new ArrayList<WarenkorbItem>();
-        testWarenkorbItemListe.add(itemEins);
-        testWarenkorbItemListe.add(itemZwei);
 
-        testWarenkorb.setWarenkorbitems(testWarenkorbItemListe);
-        testWarenkorb.setGesamtbetrag(testWarenkorb.gesamtbetrag(testWarenkorbItemListe));
+        // List<WarenkorbItem> testWarenkorbItemListe = new ArrayList<WarenkorbItem>();
+        // testWarenkorbItemListe.add(itemEins);
+        // testWarenkorbItemListe.add(itemZwei);
+
+        testWarenkorb.addItem(itemEins);
+        testWarenkorb.addItem(itemZwei);
+        System.out.println(testWarenkorb);
+        
+        // testWarenkorb.setGesamtbetrag(testWarenkorb.gesamtbetrag(testWarenkorb.warenkorbItems));
         
     }
 }
