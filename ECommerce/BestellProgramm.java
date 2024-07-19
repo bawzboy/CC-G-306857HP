@@ -28,10 +28,6 @@ public class BestellProgramm {
         WarenkorbItem itemEins = new WarenkorbItem(produktEins, testWarenkorb, produktEins.preis, 5);
         WarenkorbItem itemZwei = new WarenkorbItem(produktZwei, testWarenkorb, produktZwei.preis, 3);
 
-        // List<WarenkorbItem> testWarenkorbItemListe = new ArrayList<WarenkorbItem>();
-        // testWarenkorbItemListe.add(itemEins);
-        // testWarenkorbItemListe.add(itemZwei);
-
         testWarenkorb.addItem(itemEins);
         testWarenkorb.addItem(itemZwei);
         testWarenkorb.setGesamtbetrag(testWarenkorb.gesamtbetrag(testWarenkorb.warenkorbItems));
