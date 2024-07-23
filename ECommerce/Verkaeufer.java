@@ -2,35 +2,34 @@ package ECommerce;
 
 import java.util.List;
 
-public class Verkaeufer {
+public class Verkaeufer extends Person {
 
-    int verkaeuferId;
-    String verkaeuferName;
+
     List<Produkt> produkte;
 
     public Verkaeufer() {
     }
 
-    public Verkaeufer(int verkaeuferId, String verkaeuferName, List<Produkt> produkte) {
-        this.verkaeuferId = verkaeuferId;
-        this.verkaeuferName = verkaeuferName;
+    public Verkaeufer(int id, String name, List<Produkt> produkte) {
+        this.id = id;
+        this.name = name;
         this.produkte = produkte;
     }
 
-    public int getVerkaeuferId() {
-        return verkaeuferId;
+    public int getId() {
+        return id;
     }
 
-    public void setVerkaeuferId(int verkaeuferId) {
-        this.verkaeuferId = verkaeuferId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getVerkaeuferName() {
-        return verkaeuferName;
+        return name;
     }
 
-    public void setVerkaeuferName(String verkaeuferName) {
-        this.verkaeuferName = verkaeuferName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public List<Produkt> getProdukte() {
@@ -43,7 +42,18 @@ public class Verkaeufer {
 
     @Override
     public String toString() {
-        return "Verkaeufer [verkaeuferId=" + verkaeuferId + ", verkaeuferName=" + verkaeuferName + ", produkte="
+        return "Verkaeufer [verkaeuferId=" + id + ", verkaeuferName=" + name + ", produkte="
                 + produkte + "]";
     }
+
+    @Override
+    public int getPlz() {
+        throw new UnsupportedOperationException("Unimplemented method 'getPlz'");
+    }
+
+    @Override
+    public String getAdresse() {
+        throw new UnsupportedOperationException("Unimplemented method 'getAdresse'");
+    }
+
 }

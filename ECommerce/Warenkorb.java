@@ -57,7 +57,7 @@ public class Warenkorb {
 
     @Override
     public String toString() {
-        return "Warenkorb [warenkorbItems=" + warenkorbItems.size() + ", gesamtbetrag=" + gesamtbetrag + ", Kunde=" + kunde.getKundenId() + "]";
+        return "Warenkorb [warenkorbItems=" + warenkorbItems.size() + ", gesamtbetrag=" + gesamtbetrag + ", Kunde=" + kunde.getId() + "]";
     }
 
 }

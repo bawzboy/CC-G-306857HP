@@ -2,21 +2,18 @@ package ECommerce;
 
 import java.util.List;
 
-public class Kunde {
+public class Kunde extends Person {
 
-    private String name;
-    private String adresse;
-    private int kundenId;
-    private String emailAdresse;
+
     private List<Bestellung> bestellungen;
 
     public Kunde() {
     }
 
-    public Kunde(String name, String adresse, int kundenId, String emailAdresse, List<Bestellung> bestellungen) {
+    public Kunde(String name, String adresse, int id, String emailAdresse, List<Bestellung> bestellungen) {
         this.name = name;
         this.adresse = adresse;
-        this.kundenId = kundenId;
+        this.id = id;
         this.emailAdresse = emailAdresse;
         this.bestellungen = bestellungen;
     }
@@ -37,12 +34,12 @@ public class Kunde {
         this.adresse = adresse;
     }
 
-    public int getKundenId() {
-        return kundenId;
+    public int getId() {
+        return id;
     }
 
-    public void setKundenId(int kundenId) {
-        this.kundenId = kundenId;
+    public void setId(int kundenId) {
+        this.id = kundenId;
     }
 
     public String getEmailAdresse() {
@@ -63,7 +60,12 @@ public class Kunde {
 
     @Override
     public String toString() {
-        return "Kunde [name=" + name + ", adresse=" + adresse + ", kundenId=" + kundenId + ", emailAdresse="
+        return "Kunde [name=" + name + ", adresse=" + adresse + ", kundenId=" + id + ", emailAdresse="
                 + emailAdresse + ", bestellungen=" + bestellungen + "]";
+    }
+
+    @Override
+    public int getPlz() {
+        throw new UnsupportedOperationException("Unimplemented method 'getPlz'");
     }   
 }
